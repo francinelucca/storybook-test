@@ -1,19 +1,19 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-const NewStoryComponent = () => <div>This is the storybook story</div>
+const StorybookComponent = () => <div>This is the storybook story</div>
 
 
 export default {
-  title: 'Example/NewStory',
-  component: NewStoryComponent,
+  title: 'Example/Storybook',
+  component: StorybookComponent,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
   },
-} as ComponentMeta<typeof NewStoryComponent>;
+} as ComponentMeta<typeof StorybookComponent>;
 
-const Template: ComponentStory<any> = (args) => <NewStoryComponent {...args} />;
+const Template: ComponentStory<any> = (args) => <StorybookComponent {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {};
