@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-const NewStoryComponent = () => <div>Hiiiii - Editd eh eh eh</div>
+const NewStoryComponent = () => <div>Hiiiii - Editd eh ejnfe</div>
 
 
 export default {
