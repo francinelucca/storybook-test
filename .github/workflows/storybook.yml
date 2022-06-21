@@ -28,7 +28,7 @@ jobs:
           repository: francinelucca/storybook-test-2
           path: target
           ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
       - name: Set up Git User 🤖
         run: |
           git config --global user.email 'francinelucca@hotmail.com'
