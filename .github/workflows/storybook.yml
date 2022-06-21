@@ -28,6 +28,10 @@ jobs:
           repository: francinelucca/storybook-test-2
           path: target
           ref: main
+      - name: Set up Git User 🤖
+        run: |
+          git config --global user.email 'francinelucca@hotmail.com'
+          git config --global user.name 'Francine Lucca'
       - name: Publish to separate reopened
         run: |
           cp -r docs-build target
