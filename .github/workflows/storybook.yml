@@ -38,4 +38,4 @@ jobs:
           cd target
           git add .
           git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/project"
-          git push target main
+          git push
