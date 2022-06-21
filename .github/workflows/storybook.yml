@@ -32,7 +32,7 @@ jobs:
           TARGET_FOLDER: docs/storybook # The folder that we serve our Storybook files from
       - name: Publish to separate reopened
         run: |
-          git clone git@github.com:francinelucca/storybook-test-2.git
+          git clone git@github.com:francinelucca/storybook-test-2.git target
           copy docs-build target
           cd target
           git add .
