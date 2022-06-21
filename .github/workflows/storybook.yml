@@ -30,7 +30,7 @@ jobs:
           ref: main
       - name: Publish to separate reopened
         run: |
-          copy docs-build target
+          cp -r docs-build target
           cd target
           git add .
           git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/project"
